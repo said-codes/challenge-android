@@ -8,70 +8,22 @@
     android:gravity="center"
     tools:context=".ui.offices.OfficesFragment">
     <!-- TODO: Update blank fragment layout -->
-
     <TextView
         android:id="@+id/titleOffices"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textSize="50dp"
-        android:textAlignment="center"
         android:fontFamily="@font/roboto_italic"
-        android:text="@string/menu_branch_offices" />
+        android:text="@string/menu_branch_offices"
+        android:textAlignment="center"
+        android:textSize="25dp" />
 
-    <ScrollView
+    <GridView
+        android:id="@+id/gridOffices"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:paddingTop="2dp">
+        android:layout_height="match_parent"
+        android:numColumns="1">
 
-                <ImageView
-                    android:id="@+id/imageView1"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/office" />
-
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/roboto_italic"
-                    android:textSize="25dp"
-                    android:text="TextView" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:paddingTop="2dp">
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/branch_office" />
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/roboto_italic"
-                    android:textSize="25dp"
-                    android:text="TextView" />
-            </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
+    </GridView>
 
 </LinearLayout>
 

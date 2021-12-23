@@ -9,11 +9,12 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- Color palette-->
-    <color name="primary">#2C222E</color>
-    <color name="primary_two">#231B25</color>
+    <color name="secondary">#2C222E</color>
+    <color name="secondary_two">#231B25</color>
+    <color name="primary">#EF6900</color>
+    <color name="primary_two">#D86104</color>
     <color name="tertiary">#FFB500</color>
     <color name="white_palette">#EFEFFC</color>
     <color name="quaternary">#CEA9A0</color>
-    <color name="secondary">#EF6900</color>
-    <color name="secondary_two">#D86104</color>
+
 </resources>

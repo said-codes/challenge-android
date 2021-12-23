@@ -18,7 +18,7 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
     private FragmentHomeBinding binding;
-    private ImageView img1, img2,img3,img4,img5,img6,img7;
+
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -28,57 +28,6 @@ public class HomeFragment extends Fragment {
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        img1 = (ImageView) binding.imageView1;
-        img2= (ImageView) binding.imageView2;
-        img3 = (ImageView) binding.imageView3;
-        img4 = (ImageView) binding.imageView4;
-        img5 = (ImageView) binding.imageView5;
-        img6 = (ImageView) binding.imageView6;
-        img7 = (ImageView) binding.imageView7;
-        img1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Img1 Functionality  under construction", Toast.LENGTH_SHORT).show();
-            }
-        });
-        img2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Img2 Functionality under construction", Toast.LENGTH_SHORT).show();
-            }
-        });
-        img3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Img3 Functionality under construction", Toast.LENGTH_SHORT).show();
-            }
-        });
-        img4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Img4 Functionality under construction", Toast.LENGTH_SHORT).show();
-            }
-        });
-        img5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Img5 Functionality under construction", Toast.LENGTH_SHORT).show();
-            }
-        });
-        img6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Img6 Functionality under construction", Toast.LENGTH_SHORT).show();
-            }
-        });
-        img7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Img7 Functionality under construction", Toast.LENGTH_SHORT).show();
-            }
-        });
-
 
         return root;
     }
